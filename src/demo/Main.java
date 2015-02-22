@@ -16,6 +16,7 @@ public class Main {
 			buttons[i] = new Button();
 			buttons[i].setName("Button #"+(i+1));
 			frame.add(buttons[i]);
+			
 		}
 		
 		frame.addKeyListener(new Key(buttons));

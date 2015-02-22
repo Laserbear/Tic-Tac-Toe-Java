@@ -20,7 +20,7 @@ public class Button extends JComponent {
 		super.paint(g);
 		String title = getName();
 		
-		// you don't need this btw, it's just to make it look nicer
+	
 		Graphics2D g2D = (Graphics2D) g;
 		g2D.setRenderingHint(RenderingHints.KEY_TEXT_ANTIALIASING, RenderingHints.VALUE_TEXT_ANTIALIAS_ON);
 		g2D.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
